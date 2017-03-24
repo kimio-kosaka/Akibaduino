@@ -1,0 +1,5 @@
+raspi.name=Raspberry Pi GPIO
+raspi.protocol=linuxgpio
+raspi.program.protocol=linuxgpio
+raspi.program.tool=avrdude
+raspi.program.extra_params=-C /usr/local/bin/avrdude_gpio.conf
